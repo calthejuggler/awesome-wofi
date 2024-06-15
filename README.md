@@ -57,7 +57,7 @@ After copying the configuration file, you can launch Wofi to see the new theme
 in action:
 
 ```sh
-wofi --show drun
+wofi --show drun -I
 ```
 
 ## Contributing
@@ -86,6 +86,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ### Blank Theme
 
 ![Blank Theme](screenshots/blank.png)
+
+### Raycast [WIP]
+
+![Raycast - work in progress](screenshots/raycast.png)
 
 ## Acknowledgements
 
