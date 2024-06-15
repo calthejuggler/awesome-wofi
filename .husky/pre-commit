@@ -1,0 +1,3 @@
+pnpm compile
+
+pnpm dlx commitlint --edit
