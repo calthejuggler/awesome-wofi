@@ -1,0 +1,33 @@
+/* The name of the window itself */
+#window {
+  /* The name of the box that contains everything */
+  #outer-box {
+    /* The name of the search bar */
+    #input {}
+
+    /* The name of the scrolled window containing all of the entries */
+    #scroll {
+      /* The name of the box containing all of the entries */
+      #inner-box
+
+      /* The name of all images in entries displayed in image mode */
+      #img {}
+
+      /* The name of all the text in entries */
+      #text {}
+
+      /* The name of all entries */
+      #entry {
+        /* The name of all entries currently selected. */
+        &:selected {}
+
+        /* The name of all entries currently unselected. */
+        &:unselected {}
+      }
+
+      /* The name of all boxes shown when expanding  */
+      /* entries with multiple actions */
+      #expander-box {}
+    }
+  }
+}

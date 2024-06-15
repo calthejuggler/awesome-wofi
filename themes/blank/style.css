@@ -1,41 +1,19 @@
 /* The name of the window itself */
-#window {}
-
-/* The name of the box that contains everything */
-#outer-box {}
-
-/* The name of the search bar */
-#input {}
-
-/* The name of the scrolled window containing all of the entries */
-#scroll {}
-
-/* The name of the box containing all of the entries */
-#inner-box
-
-/* The name of all images in entries displayed in image mode */
-#img {}
-
-/* The name of all the text in entries */
-#text {}
-
-/* The name of all entries currently unselected. */
-/* A better way of doing this is to do #entry and combine 
-* that with #entry:selected */
-#unselected {}
-
-/* The name of all entries currently selected. */
-/* A better way of doing this is to do #entry:selected */
-#selected {}
-
-/* The class attached to all entries. This is attached to */
-/* the inside property box and is old, you probably  */
-/* want #entry instead */
-.entry {}
-
-/* The name of all entries */
-#entry {}
-
-/* The name of all boxes shown when expanding  */
-/* entries with multiple actions */
-#expander-box {}
+#window {
+  /* The name of the box that contains everything */
+}
+#window #outer-box {
+  /* The name of the search bar */
+  /* The name of the scrolled window containing all of the entries */
+}
+#window #outer-box #scroll {
+  /* The name of the box containing all of the entries */
+  /* The name of all the text in entries */
+  /* The name of all entries */
+  /* The name of all boxes shown when expanding  */
+  /* entries with multiple actions */
+}
+#window #outer-box #scroll #entry {
+  /* The name of all entries currently selected. */
+  /* The name of all entries currently unselected. */
+}
