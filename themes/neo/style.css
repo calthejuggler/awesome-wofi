@@ -1,0 +1,43 @@
+#window {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 0rem;
+    border: 2px solid rgba(0, 100, 0, 1);
+    font-size: 1.6rem;
+    font-family: 'Iosevka Nerd Font', 'FiraCode Nerd Font', 'Adwaita Mono', monospace;
+}
+#input {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(0, 255, 0, 1);
+    border: 2px solid rgba(0, 255, 0, 1);
+    padding: 0.8rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+}
+#input:focus, #input:focus-visible, #input:active {
+    background: linear-gradient(
+        to right,
+        rgba(0, 255, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+#entry {
+    color: rgba(0, 180, 0, 1);
+    padding: 0.6rem 1rem;
+}
+#img {
+    width: 1rem;
+    margin-right: 1.0rem;
+}
+#entry:selected {
+    color: rgba(0, 255, 0, 1);
+    background: linear-gradient(
+        to right,
+        rgba(0, 255, 0, 0.5) 20%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    outline: none;
+}
+#text:selected {
+    color: rgba(0, 255, 0, 1);
+    font-weight: 700;
+}
