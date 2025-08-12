@@ -1,0 +1,58 @@
+#window {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 2rem 2rem 2rem 2rem;
+    border: 2px solid rgba(100, 100, 100, 1);
+    font-size: 1.6rem;
+    font-family: 'Iosevka Nerd Font', 'FiraCode Nerd Font', 'Adwaita Mono', monospace;
+}
+#input {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 255, 0.1) 0%,
+        rgba(255, 0, 255, 0.05) 100%
+    );
+    color: rgba(200, 200, 200, 1);
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 2rem 2rem 0 0;
+    border-top: 2px solid rgba(120, 120, 120, 1);
+    border-left: 2px solid rgba(120, 120, 120, 1);
+    border-right: 2px solid rgba(120, 120, 120, 1);
+}
+#input:focus, #input:focus-visible, #input:active {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 255, 0.4) 0%,
+        rgba(255, 0, 255, 0.3) 100%
+    );
+}
+#scroll {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#entry {
+    color: rgba(0, 0, 200, 1);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0.6rem 1rem;
+}
+#img {
+    width: 1rem;
+    margin-right: 1.0rem;
+}
+#entry:selected {
+    color: rgba(100, 100, 100, 1);
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 255, 0.5) 20%,
+        rgba(0, 0, 0, 0) 80%
+    );
+    outline: none;
+}
+#text:selected {
+    color: rgba(0, 0, 255, 1);
+    font-weight: 700;
+}
+

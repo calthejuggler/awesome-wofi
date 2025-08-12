@@ -20,8 +20,15 @@
         rgba(0, 0, 0, 0) 100%
     );
 }
+#scroll {
+    margin-top: 3px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 #entry {
     color: rgba(0, 180, 0, 1);
+    background-color: rgba(0, 0, 0, 1);
     padding: 0.6rem 1rem;
 }
 #img {
