@@ -91,6 +91,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ![Raycast - work in progress](screenshots/raycast.png)
 
+### Bluethink
+![Bluethink](screenshots/bluethink.png)
+
 ## Acknowledgements
 
 - [Wofi](https://github.com/adi1090x/wofi) - The launcher/menu program we are
