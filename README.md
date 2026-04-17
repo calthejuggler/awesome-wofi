@@ -94,6 +94,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ### Bluethink
 ![Bluethink](screenshots/bluethink.png)
 
+### Midnight Blue
+![Midnight Blue](screenshots/midnightblue.png)
+
 ## Acknowledgements
 
 - [Wofi](https://github.com/adi1090x/wofi) - The launcher/menu program we are

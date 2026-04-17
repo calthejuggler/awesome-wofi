@@ -1,0 +1,13 @@
+show_icons=true
+css_file=midnightblue/style.css
+gtk_dark=true
+allow_images=true
+allow_markup=true
+width=600px
+height=400px
+orientation=vertical
+sort_order=alphabetical
+key_expand=Tab
+key_exit=Escape
+filter_rate=100
+prompt=Applications
