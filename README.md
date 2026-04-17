@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 - Wofi: Make sure you have Wofi installed. You can find installation
-instructions on the [official Wofi GitHub page](https://hg.sr.ht/~scoopta/wofi).
+instructions on the [official Wofi GitHub page](https://github.com/SimplyCEO/wofi).
 
 ### Installation
 
